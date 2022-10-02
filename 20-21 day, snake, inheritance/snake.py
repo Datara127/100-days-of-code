@@ -15,14 +15,18 @@ class Snake:
 
     def create_snake(self):
         for i in range(3):
-            self.add_segment(position=-20 * i)
+            self.add_segment((-20 * i, 0))
 
     def add_segment(self, position):
         new_segment = Turtle("square")
+        new_segment.speed("fastest")
         new_segment.color("white")
         new_segment.penup()
         new_segment.goto(position)
         self.snake.append(new_segment)
+
+    def extend(self):
+        self.add_segment(self.snake[-1].position())
 
     def move(self):
         for i in range(len(self.snake) - 1, 0, -1):

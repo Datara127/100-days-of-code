@@ -31,9 +31,14 @@ def main_func():
             scoreboard.score += 1
             scoreboard.refresh()
             food.refresh()
+            snake.extend()
 
         if snake.head.xcor() > 370 or snake.head.xcor() < -370 or snake.head.ycor() > 370 or snake.head.ycor() < -370:
             game_is_on = False
+
+        for segment in snake.snake:
+            if snake.head.distance(segment) < 10 and segment != snake.head:
+                game_is_on = False
 
     else:
         screen.clearscreen()

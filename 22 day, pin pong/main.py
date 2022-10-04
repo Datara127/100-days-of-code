@@ -16,8 +16,10 @@ def main_func():
     screen.bgcolor("black")
     screen.title("Pong")
     screen.listen()
-    screen.onkeypress(paddle_2.go_up, "Up")
-    screen.onkeypress(paddle_2.go_down, "Down")
+    screen.onkeypress(paddle_1.go_up, "Up")
+    screen.onkeypress(paddle_1.go_down, "Down")
+    screen.onkeypress(paddle_2.go_up, "w")
+    screen.onkeypress(paddle_2.go_down, "s")
 
     game_is_on = True
     while game_is_on:

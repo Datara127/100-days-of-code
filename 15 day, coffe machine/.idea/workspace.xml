@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="872f5c73-a96f-4111-becf-3a01dff51ad3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/../22 day, pin pong/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../22 day, pin pong/main.py" afterDir="false" />
+>>>>>>> f06fec69d7cb0b465d660bf9fd320845e125cfbb
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +28,12 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+<<<<<<< HEAD
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+=======
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/programming/Python/100-days-of-code/15 day, coffe machine&quot;
+>>>>>>> f06fec69d7cb0b465d660bf9fd320845e125cfbb
   }
 }</component>
   <component name="RunManager">
